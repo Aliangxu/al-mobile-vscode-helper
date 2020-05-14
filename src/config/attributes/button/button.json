@@ -1,0 +1,58 @@
+{
+	"n22-button/type": {
+    	"options": ["primary", "warning", "disabled", "link"],
+		"description": "样式、类型",
+		"descriptionEn": "(meaning default)",
+		"optionType": "string",
+		"defaultValue": "default"
+	},
+	"n22-button/native-type": {
+		"description": "html类型",
+		"descriptionEn": "html type",
+		"optionType": "string",
+		"defaultValue": "button"
+	},
+	"n22-button/size": {
+    	"options": ["small", "large"],
+		"descriptionEn": "按钮大小可以选择small 或者 large",
+		"description": "can be set to small large or omitted",
+		"optionType": "string",
+		"defaultValue": "default"
+	},
+	"n22-button/plain": {
+		"description": "是否镂空",
+		"descriptionEn": "is plain",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"n22-button/round": {
+		"description": "是否圆角",
+		"descriptionEn": "is round",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"n22-button/inline": {
+		"description": "是否行内",
+		"descriptionEn": "is inline",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"n22-button/icon": {
+		"description": "图标",
+		"descriptionEn": "icon",
+		"optionType": "icon",
+		"defaultValue": "-"
+	},
+	"n22-button/inactive": {
+		"description": "inactive设为true和disabled类型的按钮都无法点击，前者一般用于表单校验无效等主观因素，后者用于无权限或无库存等客观因素",
+		"descriptionEn": "inactive",
+		"optionType": "string",
+		"defaultValue": "default"
+	},
+	"n22-button/loading": {
+		"description": "加载中状态",
+		"descriptionEn": "is loading",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	}
+}

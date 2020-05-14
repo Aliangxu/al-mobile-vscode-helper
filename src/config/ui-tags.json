@@ -1,0 +1,13 @@
+{
+  "al-all-head": {
+    "defaults": ["title"],
+    "attributes": ["title", "hairline", "leftText", "leftTextIcon", "rightText", "rightTextIcon", "backUrl", "fixed", "border", "zIndex", "opacityStyle"],
+    "description": "顶部导航",
+    "descriptionEn": "head"
+  },
+  "n22-button": {
+    "defaults": ["type"],
+    "attributes": ["disabled", "ghost", "htmlType", "icon", "loading", "shape", "size", "type", "block"],
+    "description": "to trigger an operation"
+  }
+}

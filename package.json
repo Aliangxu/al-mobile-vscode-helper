@@ -1,0 +1,94 @@
+{
+	"name": "al-mobile-vscode-helper",
+	"displayName": "al-mobile-vscode-helper",
+	"description": "al-mobile vscode开发帮助插件",
+	"version": "0.0.1",
+	"publisher": "al-mobile",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Aliangxu/al-mobile-vscode-helper"
+	},
+	"engines": {
+		"vscode": "^1.45.0"
+	},
+	"icon": "al.png",
+	"categories": [
+		"Snippets",
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:al-mobile-helper.helloWorld",
+		"onLanguage:html",
+		"onLanguage:vue",
+		"onCommand:al-mobile-helper.search"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "al-mobile-helper.helloWorld",
+				"title": "Hello World"
+			},
+			{
+				"command": "al-mobile-helper.search",
+				"title": "al-mobile-helper.search"
+			}
+		],
+		"keybindings": [
+			{
+				"command": "al-mobile-helper.search",
+				"key": "shift+cmd+a",
+				"when": "editorTextFocus"
+			}
+		],
+		"snippets": [
+			{
+				"language": "javascript",
+				"path": "./snippets/al-mobile.json"
+			}
+		],
+		"configuration": {
+			"type": "object",
+			"title": "Al Helper Configuration",
+			"properties": {
+				"al-mobile-helper.indent-size": {
+					"type": "number",
+					"default": 2,
+					"description": "Indentation size of snippets"
+				},
+				"al-mobile-helper.quotes": {
+					"type": "string",
+					"default": "double"
+				},
+				"al-mobile-helper.link-url": {
+					"type": "string",
+					"default": "https://vue-mobile.gitee.io/al-mobile"
+				}
+			}
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "sh build.sh",
+		"lint": "eslint src --ext ts",
+		"watchold": "sh build.sh --watch",
+		"watch": "tsc -p ./ --watch",
+		"pretest": "npm run compile && npm run lint",
+		"test": "npm run compile && node ./out/test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/glob": "^7.1.1",
+		"@types/mocha": "^7.0.2",
+		"@types/node": "^13.11.0",
+		"@types/vscode": "^1.45.0",
+		"@typescript-eslint/eslint-plugin": "^2.30.0",
+		"@typescript-eslint/parser": "^2.30.0",
+		"eslint": "^6.8.0",
+		"glob": "^7.1.6",
+		"mocha": "^7.1.2",
+		"pretty": "^2.0.0",
+		"shelljs": "^0.8.4",
+		"typescript": "^3.8.3",
+		"vscode-test": "^1.3.0"
+	}
+}

@@ -1,0 +1,84 @@
+{
+  "toast-info": {
+    "prefix": "toast-info",
+    "body": [
+      "Toast.info('${1:string|vNode}')"
+    ],
+    "description": "toast info"
+  },
+  "toast-succeed": {
+    "prefix": "toast-succeed",
+    "body": [
+      "Toast.succeed('${1:string|vNode}')"
+    ],
+    "description": "toast succeed"
+  },
+  "toast-failed": {
+    "prefix": "toast-failed",
+    "body": [
+      "Toast.failed('${1:string|vNode}')"
+    ],
+    "description": "toast failed"
+  },
+  "toast": {
+    "prefix": "toast",
+    "body": [
+      "Toast({",
+      "\tcontent: '${1:string|vNode}',",
+      "\tposition: '${2:string}',",
+      "\tconfirmText: '确定',",
+      "\tduration: 3000,",
+      "});"
+    ],
+    "description": "toast"
+  },
+  "dialog-alert": {
+    "prefix": "dialog-alert",
+    "body": [
+      "Dialog.alert({",
+      "\ttitle: '${1:string|vNode}',",
+      "\tcontent: '${2:string|vNode}',",
+      "\tcancelText: '取消',",
+      "\tconfirmText: '确定',",
+      "\tonConfirm: () => console.log('[Dialog.alert] confirm clicked'),",
+      "});"
+    ],
+    "description": "dialog alert"
+  },
+  "dialog-confirm": {
+    "prefix": "dialog-confirm",
+    "body": [
+      "Dialog.confirm({",
+      "\ttitle: '${1:string|vNode}',",
+      "\tcontent: '${2:string|vNode}',",
+      "\tconfirmText: '确定',",
+      "\tonConfirm: () => console.log('[Dialog.confirm] confirm clicked'),",
+      "});"
+    ],
+    "description": "dialog confirm"
+  },
+  "dialog-succeed": {
+    "prefix": "dialog-succeed",
+    "body": [
+      "Dialog.succeed({",
+      "\ttitle: '${1:string|vNode}',",
+      "\tcontent: '${2:string|vNode}',",
+      "\tconfirmText: '确定',",
+      "\tonConfirm: () => console.log('[Dialog.succeed] confirm clicked'),",
+      "});"
+    ],
+    "description": "dialog succeed"
+  },
+  "dialog-failed": {
+    "prefix": "dialog-failed",
+    "body": [
+      "Dialog.failed({",
+      "\ttitle: '${1:string|vNode}',",
+      "\tcontent: '${2:string|vNode}',",
+      "\tconfirmText: '确定',",
+      "\tonConfirm: () => console.log('[Dialog.failed] confirm clicked'),",
+      "});"
+    ],
+    "description": "dialog failed"
+  }
+}

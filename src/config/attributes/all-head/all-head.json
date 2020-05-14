@@ -1,0 +1,68 @@
+{
+	"al-all-head/title": {
+		"description": "头部显示标题",
+		"descriptionEn": "title of head",
+		"optionType": "string",
+		"defaultValue": "头部标题"
+	},
+	"al-all-head/hairline": {
+		"description": "是否有底部阴影线",
+		"descriptionEn": "is hairline",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"al-all-head/leftText": {
+		"description": "左边文字内容",
+		"descriptionEn": "left text",
+		"optionType": "string",
+		"defaultValue": "-"
+	},
+	"al-all-head/leftTextIcon": {
+		"description": "左边icon图标",
+		"descriptionEn": "left icon",
+		"optionType": "string",
+		"defaultValue": "back"
+	},
+	"al-all-head/rightText": {
+		"description": "右边文字内容",
+		"descriptionEn": "right text",
+		"optionType": "string",
+		"defaultValue": "-"
+	},
+	"al-all-head/rightTextIcon": {
+		"description": "右边icon图标",
+		"descriptionEn": "right icon",
+		"optionType": "string",
+		"defaultValue": "-"
+	},
+	"al-all-head/backUrl": {
+		"description": "this.back的返回参数url",
+		"descriptionEn": "url params of the function back",
+		"optionType": "string",
+		"defaultValue": "-"
+	},
+	"al-all-head/fixed": {
+		"description": "是否fixed布局",
+		"descriptionEn": "is fixed of head",
+		"optionType": "boolean",
+		"defaultValue": "true"
+	},
+	"al-all-head/border": {
+		"description": "是否有边框",
+		"descriptionEn": "is border",
+		"optionType": "boolean",
+		"defaultValue": "true"
+	},
+	"al-all-head/zIndex": {
+		"description": "z-index",
+		"descriptionEn": "z-index",
+		"optionType": "number",
+		"defaultValue": "1"
+	},
+	"al-all-head/opacityStyle": {
+		"description": "头部实现渐进变化透明的样式对象",
+		"descriptionEn": "opacityStyle",
+		"optionType": "object",
+		"defaultValue": "1"
+	}
+}
