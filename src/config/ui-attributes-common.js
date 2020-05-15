@@ -1,4 +1,4 @@
-{
+export default {
   "icons": [
     "view_off",
     "view",
@@ -40,6 +40,6 @@
     "delete",
     "right_arrow",
     "qq",
-    "calendar1",
+    "calendar1"
   ]
 }

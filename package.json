@@ -17,21 +17,33 @@
 		"Other"
 	],
 	"activationEvents": [
-		"onCommand:al-mobile-helper.helloWorld",
 		"onLanguage:html",
 		"onLanguage:vue",
-		"onCommand:al-mobile-helper.search"
+		"onCommand:al-mobile-helper.search",
+		"onCommand:al-mobile-helper.run"
+	],
+	"keywords": [
+		"al-mobile",
+		"shell",
+		"commands",
+		"terminal",
+		"run",
+		"runner",
+		"bash",
+		"shell",
+		"sh",
+		"cmd"
 	],
 	"main": "./out/extension.js",
 	"contributes": {
 		"commands": [
 			{
-				"command": "al-mobile-helper.helloWorld",
-				"title": "Hello World"
-			},
-			{
 				"command": "al-mobile-helper.search",
 				"title": "al-mobile-helper.search"
+			},
+			{
+				"command": "al-mobile-helper.run",
+				"title": "N22运行"
 			}
 		],
 		"keybindings": [
@@ -39,17 +51,40 @@
 				"command": "al-mobile-helper.search",
 				"key": "shift+cmd+a",
 				"when": "editorTextFocus"
+			},
+			{
+				"command": "al-mobile-helper.run",
+				"key": "shift+cmd+k"
 			}
 		],
+		"menus": {
+			"editor/context": [
+			  {
+				"when": "!inOutput",
+				"command": "al-mobile-helper.run",
+				"group": "navigation@1"
+			  }
+			],
+			"explorer/context": [
+			  {
+				"command": "al-mobile-helper.run",
+				"group": "navigation@1"
+			  }
+			]
+		},
 		"snippets": [
 			{
 				"language": "javascript",
 				"path": "./snippets/al-mobile.json"
+			},
+			{
+				"language": "vue",
+				"path": "./snippets/vue-mobile.json"
 			}
 		],
 		"configuration": {
 			"type": "object",
-			"title": "Al Helper Configuration",
+			"title": "Al Mobile Helper",
 			"properties": {
 				"al-mobile-helper.indent-size": {
 					"type": "number",
@@ -63,6 +98,27 @@
 				"al-mobile-helper.link-url": {
 					"type": "string",
 					"default": "https://vue-mobile.gitee.io/al-mobile"
+				},
+				"al-mobile-helper.statusBar": {
+					"type": "boolean",
+					"default": true,
+					"description": "Shortcut in Bottom Status Bar"
+				},
+				"al-mobile-helper.customShell.enabled": {
+					"scope": "machine-overridable",
+					"type": "boolean",
+					"default": false,
+					"description": "Use a different shell, defined in al-mobile-helper.customShell.path"
+				},
+				"al-mobile-helper.customShell.path": {
+					"scope": "machine-overridable",
+					"type": "string",
+					"default": "/bin/sh",
+					"description": "Shell to execute the command with"
+				},
+				"al-mobile-helper.definitions": {
+					"type": "object",
+					"description": "Shell to execute the command with"
 				}
 			}
 		}

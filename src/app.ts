@@ -8,6 +8,7 @@ import {
 } from 'vscode';
 import * as TAGS from './config/ui-tags.json';
 import ATTRS from './config/ui-attributes.js';
+import ATTRSCOMMOM from './config/ui-attributes-common.js';
 
 const prettyHTML = require('pretty');
 
@@ -306,7 +307,8 @@ export class AlmobileCompletionItemProvider implements CompletionItemProvider {
       if (attrItem.optionType === "boolean") {
         options = ["true", "false"];
       } else if (attrItem.optionType === "icon") {
-        options = ATTRS["icons"];
+        console.log("%c ATTRSCOMMOM","color:#00CD00",ATTRSCOMMOM)
+        options = ATTRSCOMMOM["icons"];
       }
     }
     return options || [];
