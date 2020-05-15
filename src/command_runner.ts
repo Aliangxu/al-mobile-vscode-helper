@@ -215,7 +215,7 @@ export class CommandRunner {
 			configurationCommands.push(mols);
 		}else{
 			console.log("没有modules模块～读取自定义配置命令设置");
-			configurationCommands = configuration.commands
+			configurationCommands = configuration.commands;
 		}
 
 		for (const command of configurationCommands) {

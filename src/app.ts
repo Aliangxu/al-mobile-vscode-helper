@@ -65,7 +65,7 @@ export class App {
   }
 
   openHtml(query, title) {
-    const { label, detail } = query
+    const { label, detail } = query;
     const panel = window.createWebviewPanel(
       label,
       detail,
@@ -81,7 +81,7 @@ export class App {
   }
 
   openDocs(query?: Query, title = 'al-mobile-helper', editor = window.activeTextEditor){
-    this.openHtml(query, title)
+    this.openHtml(query, title);
   }
         
   dispose() {
@@ -159,8 +159,8 @@ export class AlmobileCompletionItemProvider implements CompletionItemProvider {
       }
       tag = this.matchTag(this.tagReg, txt, line);
       
-      if (tag === 'break') return;
-      if (tag) return <TagObject>tag;
+      if (tag === 'break') {return;};
+      if (tag) {return <TagObject>tag;};
       line--;
     }
     return;
@@ -287,9 +287,9 @@ export class AlmobileCompletionItemProvider implements CompletionItemProvider {
 
   buildAttrSuggestion({attr, tag, bind, method}, {description, type, optionType, defaultValue}) {
     if ((method && type === "method") || (bind && type !== "method") || (!method && !bind)) {
-      let documentation = description
-      optionType && (documentation += "\n" + `type: ${optionType}`)
-      defaultValue && (documentation += "\n" + `default: ${defaultValue}`)
+      let documentation = description;
+      optionType && (documentation += "\n" + `type: ${optionType}`);
+      defaultValue && (documentation += "\n" + `default: ${defaultValue}`);
       return {
         label: attr,
         insertText: (type && (type === 'flag')) ? `${attr} ` : new SnippetString(`${attr}=${this.quotes}$1${this.quotes}$0`),
@@ -307,7 +307,7 @@ export class AlmobileCompletionItemProvider implements CompletionItemProvider {
       if (attrItem.optionType === "boolean") {
         options = ["true", "false"];
       } else if (attrItem.optionType === "icon") {
-        console.log("%c ATTRSCOMMOM","color:#00CD00",ATTRSCOMMOM)
+        console.log("%c ATTRSCOMMOM","color:#00CD00",ATTRSCOMMOM);
         options = ATTRSCOMMOM["icons"];
       }
     }
