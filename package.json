@@ -59,17 +59,17 @@
 		],
 		"menus": {
 			"editor/context": [
-			  {
-				"when": "!inOutput",
-				"command": "al-mobile-helper.run",
-				"group": "navigation@1"
-			  }
+				{
+					"when": "!inOutput",
+					"command": "al-mobile-helper.run",
+					"group": "navigation@1"
+				}
 			],
 			"explorer/context": [
-			  {
-				"command": "al-mobile-helper.run",
-				"group": "navigation@1"
-			  }
+				{
+					"command": "al-mobile-helper.run",
+					"group": "navigation@1"
+				}
 			]
 		},
 		"snippets": [
@@ -139,9 +139,11 @@
 		"eslint": "^6.8.0",
 		"glob": "^7.1.6",
 		"mocha": "^7.1.2",
-		"pretty": "^2.0.0",
-		"shelljs": "^0.8.4",
 		"typescript": "^3.8.3",
 		"vscode-test": "^1.3.0"
+	},
+	"dependencies": {
+		"pretty": "^2.0.0",
+		"shelljs": "^0.8.4"
 	}
 }
