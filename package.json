@@ -2,7 +2,7 @@
 	"name": "al-mobile-vscode-helper",
 	"displayName": "al-mobile-vscode-helper",
 	"description": "al-mobile vscode开发帮助插件",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"publisher": "al-mobile",
 	"repository": {
 		"type": "git",
@@ -39,7 +39,7 @@
 		"commands": [
 			{
 				"command": "al-mobile-helper.search",
-				"title": "al-mobile-helper.search"
+				"title": "组件搜索"
 			},
 			{
 				"command": "al-mobile-helper.run",
@@ -105,20 +105,18 @@
 					"description": "Shortcut in Bottom Status Bar"
 				},
 				"al-mobile-helper.customShell.enabled": {
-					"scope": "machine-overridable",
 					"type": "boolean",
 					"default": false,
 					"description": "Use a different shell, defined in al-mobile-helper.customShell.path"
 				},
 				"al-mobile-helper.customShell.path": {
-					"scope": "machine-overridable",
 					"type": "string",
 					"default": "/bin/sh",
 					"description": "Shell to execute the command with"
 				},
 				"al-mobile-helper.definitions": {
 					"type": "object",
-					"description": "Shell to execute the command with"
+					"description": "commands"
 				}
 			}
 		}
@@ -127,8 +125,7 @@
 		"vscode:prepublish": "npm run compile",
 		"compile": "sh build.sh",
 		"lint": "eslint src --ext ts",
-		"watchold": "sh build.sh --watch",
-		"watch": "tsc -p ./ --watch",
+		"watch": "sh build.sh --watch",
 		"pretest": "npm run compile && npm run lint",
 		"test": "npm run compile && node ./out/test/runTest.js"
 	},

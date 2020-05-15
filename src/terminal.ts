@@ -9,7 +9,7 @@ export class Terminal {
     }
 
     public getTerminal(options: vscode.TerminalOptions) {
-        if (!this.term || this.terminalOptions.cwd != options.cwd) {
+        if (!this.term || this.terminalOptions.cwd !== options.cwd) {
             options.name = this.termName;
             this.terminalOptions = options;
 
