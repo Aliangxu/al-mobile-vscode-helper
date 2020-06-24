@@ -1,0 +1,56 @@
+{
+	"n22-swiper/autoplay": {
+		"description": "自动切换间隔时长(毫秒), 禁用可设置为0",
+		"descriptionEn": "the interval (ms) of autoplay; set 0 to disable autoplay",
+		"optionType": "number",
+		"defaultValue": "0"
+	},
+	"n22-swiper/transition": {
+		"description": "面板切换动画效果",
+		"descriptionEn": "animation effects",
+		"optionType": "string",
+		"defaultValue": "-"
+	},
+	"n22-swiper/transition-duration": {
+		"description": "面板切换动画时长",
+		"descriptionEn": "animation effects duration",
+		"optionType": "number",
+		"defaultValue": "250"
+	},
+	"n22-swiper/default-index": {
+		"description": "第一屏面板索引值",
+		"descriptionEn": "default selected index",
+		"optionType": "number",
+		"defaultValue": "0"
+	},
+	"n22-swiper/has-dots": {
+		"description": "·控制面板指示点",
+		"descriptionEn": "display the indication dots",
+		"optionType": "boolearn",
+		"defaultValue": "true"
+	},
+	"n22-swiper/is-prevent": {
+		"description": "阻止默认的事件，如页面滚动事件",
+		"descriptionEn": "prevent the default event",
+		"optionType": "boolearn",
+		"defaultValue": "true"
+	},
+	"n22-swiper/is-loop": {
+		"description": "循环播放",
+		"descriptionEn": "infinite loop",
+		"optionType": "boolearn",
+		"defaultValue": "true"
+	},
+	"n22-swiper/dragable": {
+		"description": "禁用触摸滑动",
+		"descriptionEn": "disabled drag",
+		"optionType": "boolearn",
+		"defaultValue": "true"
+	},
+	"n22-swiper/use-native-driver": {
+		"description": "开启3D加速",
+		"descriptionEn": "enable 3D acceleration",
+		"optionType": "boolearn",
+		"defaultValue": "true"
+	}
+}

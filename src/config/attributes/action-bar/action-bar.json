@@ -1,0 +1,8 @@
+{
+	"n22-action-bar/actions": {
+		"description": "按钮组-参数字段请参考文档",
+		"descriptionEn": "button array",
+		"optionType": "array<ActionOptions>",
+		"defaultValue": "default"
+	}
+}

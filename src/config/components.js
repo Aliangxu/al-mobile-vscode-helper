@@ -25,6 +25,13 @@ export default [
         "text": "内容区"
       },
       {
+        "name": "ContentList",
+        "path": "/content-list",
+        "icon": "content-list",
+        "tag": 'al-content',
+        "text": "内容区"
+      },
+      {
         "name": "ActionBar",
         "path": "/action-bar",
         "icon": "action-bar",
@@ -61,8 +68,8 @@ export default [
         "text": "下拉菜单"
       },
       {
-        "path": "/icon",
         "name": "Icon",
+        "path": "/icon",
         "icon": "icon",
         "text": "图标"
       },
@@ -105,6 +112,7 @@ export default [
       {
         "name": "ContentLoader",
         "path": "/content-loader",
+        "tag": 'ContentLoader',
         "icon": "content-loader",
         "text": "骨架屏"
       },

@@ -1,0 +1,20 @@
+{
+	"n22-bill/name": {
+		"description": "票据抬头",
+		"descriptionEn": "bill size",
+		"optionType": "string",
+		"defaultValue": "-"
+	},
+	"n22-bill/no": {
+		"description": "票据编号",
+		"descriptionEn": "bill shape",
+		"optionType": "string",
+		"defaultValue": "-"
+	},
+	"n22-bill/water-mark": {
+		"description": "水印内容",
+		"descriptionEn": "bill sharp",
+		"optionType": "string",
+		"defaultValue": "-"
+	}
+}

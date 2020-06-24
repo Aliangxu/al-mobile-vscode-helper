@@ -1,0 +1,45 @@
+{
+	"n22-activity-indicator/type": {
+    	"options": ["roller", "spinner", "carousel"],
+		"description": "活动状态类型",
+		"descriptionEn": "activity type",
+		"optionType": "string",
+		"defaultValue": "roller"
+	},
+	"n22-activity-indicator/size": {
+		"description": "图标大小单位px",
+		"descriptionEn": "Icon size unit px",
+		"optionType": "string",
+		"defaultValue": "70"
+	},
+	"n22-activity-indicator/width": {
+		"description": "图标宽度，单位px, 仅用于类型roller",
+		"descriptionEn": "Icon width unit px",
+		"optionType": "number",
+		"defaultValue": "-"
+	},
+	"n22-activity-indicator/color": {
+		"description": "图标颜色-spinner无法自定义色值，可选值只有dark和light",
+		"descriptionEn": "icon color",
+		"optionType": "string",
+		"defaultValue": "#fc9153/dark"
+	},
+	"n22-activity-indicator/text-color": {
+		"description": "文字颜色",
+		"descriptionEn": "text color",
+		"optionType": "string",
+		"defaultValue": "#999"
+	},
+	"n22-activity-indicator/text-size": {
+		"description": "文字大小",
+		"descriptionEn": "text font size",
+		"optionType": "string",
+		"defaultValue": "70px"
+	},
+	"n22-activity-indicator/vertical": {
+		"description": "图标文字是否垂直排列",
+		"descriptionEn": "icon and text are arranged vertically",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	}
+}

@@ -1,0 +1,28 @@
+{
+	"n22-icon/name": {
+    	"options": ["primary", "warning", "disabled", "link"],
+		"description": "name",
+		"descriptionEn": "icon name",
+		"optionType": "string",
+		"defaultValue": "-"
+	},
+	"n22-icon/size": {
+    	"options": ["xs", "sm", "md", "lg"],
+		"description": "图标大小",
+		"descriptionEn": "icon size",
+		"optionType": "string",
+		"defaultValue": "md"
+	},
+	"n22-icon/color": {
+		"description": "图标颜色",
+		"descriptionEn": "icon color",
+		"optionType": "string",
+		"defaultValue": "currentColor"
+	},
+	"n22-icon/svg": {
+		"description": "是否使用svg图标",
+		"descriptionEn": "use svg icon",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	}
+}

@@ -1,0 +1,80 @@
+{
+	"al-contsent/v-model": {
+		"description": "引用传入v-model当前tab的下标",
+		"descriptionEn": "index of tabs",
+		"optionType": "number",
+		"defaultValue": "0"
+	},
+	"al-content/isTop": {
+		"description": "是否启用返回顶部按钮",
+		"descriptionEn": "show the button of scroll top",
+		"optionType": "boolean",
+		"defaultValue": "true"
+	},
+	"al-content/isMescrollLoadList": {
+		"description": "是否启用下拉时候进行页面重载",
+		"descriptionEn": "enable mescroll load",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"al-content/isMescrollDown": {
+		"description": "是否启用下拉刷新",
+		"descriptionEn": "enable mescroll down",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"al-content/listAnm": {
+		"description": "列表数据动画",
+		"descriptionEn": "list animation",
+		"optionType": "string",
+		"defaultValue": "n22-base-slide-left"
+	},
+	"al-content/swiperTop": {
+		"description": "content距离顶部距离",
+		"descriptionEn": "content area top distance",
+		"optionType": "array number",
+		"defaultValue": "44"
+	},
+	"al-content/swiperBottom": {
+		"description": "swiper距离底部距离",
+		"descriptionEn": "content area bottom distance",
+		"optionType": "array number",
+		"defaultValue": "-"
+	},
+	"al-content/page": {
+		"description": "分页对象",
+		"descriptionEn": "list page params",
+		"optionType": "object",
+		"defaultValue": "{num: 1,size: 10,time: null}"
+	},
+	"al-content/tabs": {
+		"description": "当前页面需要的tab",
+		"descriptionEn": "tab params",
+		"optionType": "array",
+		"defaultValue": "-"
+	},
+	"al-content/upRefreshFun": {
+		"description": "非列表数据级别的下拉刷新回调方法",
+		"descriptionEn": "Drop down refresh callback method",
+		"optionType": "string",
+		"defaultValue": "-"
+	},
+	"al-content/backgroundColor": {
+		"description": "Swiper背景颜色",
+		"descriptionEn": "background color",
+		"optionType": "string",
+		"defaultValue": "-"
+	},
+	"al-content/emptyProp": {
+		"description": "数据为空的时候需要展示的图片、文本、按钮...对象",
+		"descriptionEn": "empty params",
+		"optionType": "object",
+		"defaultValue": "1"
+	},
+	"al-content/needSwiper": {
+		"description": "是否启用swiper",
+		"descriptionEn": "empty params",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	}
+}

@@ -124,6 +124,7 @@
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
 		"compile": "sh build.sh",
+		"compile-p": "tsc -p ./",
 		"lint": "eslint src --ext ts",
 		"watch": "sh build.sh --watch",
 		"pretest": "npm run compile && npm run lint",

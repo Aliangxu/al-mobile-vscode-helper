@@ -1,0 +1,38 @@
+{
+	"n22-cell-item/title": {
+		"description": "标题",
+		"descriptionEn": "title",
+		"optionType": "string",
+		"defaultValue": "-"
+	},
+	"n22-cell-item/brief": {
+		"description": "描述文案",
+		"descriptionEn": "description text",
+		"optionType": "string",
+		"defaultValue": "-"
+	},
+	"n22-cell-item/addon": {
+		"description": "附加文案",
+		"descriptionEn": "help info text",
+		"optionType": "string",
+		"defaultValue": "-"
+	},
+	"n22-cell-item/disabled": {
+		"description": "是否禁用项目",
+		"descriptionEn": "disable item operation",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"n22-cell-item/arrow": {
+		"description": "动作箭头标识",
+		"descriptionEn": "arrow indicator",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"n22-cell-item/no-border": {
+		"description": "去除边框",
+		"descriptionEn": "remove border",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	}
+}

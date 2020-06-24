@@ -1,0 +1,14 @@
+{
+	"n22-tab-pane/v-model": {
+		"description": "双向绑定的标签对象",
+		"descriptionEn": "name of selected tab",
+		"optionType": "string",
+		"defaultValue": "-"
+	},
+	"n22-tab-pane/immediate": {
+		"description": "初始化后立即就触发一次change事件",
+		"descriptionEn": "trigger a change event immediately after initialization",
+		"optionType": "boolearn",
+		"defaultValue": "false"	
+	}
+}

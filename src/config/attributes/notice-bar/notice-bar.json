@@ -1,0 +1,52 @@
+{
+	"n22-notice-bar/mode": {
+    	"options": ["closable", "link"],
+		"description": "右边提示类型",
+		"descriptionEn": "notice bar mode",
+		"optionType": "string",
+		"defaultValue": "default"
+	},
+	"n22-notice-bar/type": {
+    	"options": ["default", "activity", "warning"],
+		"description": "主题样式",
+		"descriptionEn": "theme",
+		"optionType": "string",
+		"defaultValue": "default"
+	},
+	"n22-notice-bar/time": {
+		"description": "显示时长",
+		"descriptionEn": "display time",
+		"optionType": "number",
+		"defaultValue": "0"
+	},
+	"n22-notice-bar/round": {
+		"description": "圆角展示",
+		"descriptionEn": "fillet radius",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"n22-notice-bar/multi-rows": {
+		"description": "内容超出多行展示",
+		"descriptionEn": "content exceeds line break display",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"n22-notice-bar/scrollable": {
+		"description": "内容超出滚动展示",
+		"descriptionEn": "show scrolling animation when content is exceeded",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"n22-notice-bar/icon": {
+		"description": "左侧图标",
+		"descriptionEn": "notice bar icon",
+		"optionType": "string",
+		"defaultValue": "-"
+	},
+	"n22-notice-bar/icon-svg": {
+		"description": "使用svg图标",
+		"descriptionEn": "use svg icon",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	}
+}

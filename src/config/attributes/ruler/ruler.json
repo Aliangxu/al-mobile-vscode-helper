@@ -1,0 +1,51 @@
+{
+	"n22-ruler/v-model": {
+		"description": "双向绑定的值",
+		"descriptionEn": "ruler value",
+		"optionType": "number",
+		"defaultValue": "0"
+	},
+	"n22-ruler/scope": {
+		"description": "刻度尺范围",
+		"descriptionEn": "ruler scope",
+		"optionType": "array",
+		"defaultValue": "[0,100]"
+	},
+	"n22-ruler/step": {
+		"description": "刻度尺每一大格步数",
+		"descriptionEn": "ruler step",
+		"optionType": "number",
+		"defaultValue": "10"
+	},
+	"n22-ruler/unit": {
+		"description": "刻度尺每一小格步数",
+		"descriptionEn": "ruler unit",
+		"optionType": "number",
+		"defaultValue": "1"
+	},
+	"n22-ruler/min": {
+		"description": "最小可滑动位置",
+		"descriptionEn": "minimum",
+		"optionType": "number",
+		"defaultValue": "0"
+	},
+	"n22-ruler/max": {
+		"description": "最大可滑动位置",
+		"descriptionEn": "maximum",
+		"optionType": "number",
+		"defaultValue": "100"
+	},
+	"n22-ruler/stepTextPosition": {
+		"options": ["top","bottom"],
+		"description": "Step标志位置",
+		"descriptionEn": "step text position",
+		"optionType": "string",
+		"defaultValue": "top"
+	},
+	"n22-ruler/stepTextRender": {
+		"description": "自定义step文案",
+		"descriptionEn": "step text render",
+		"optionType": "function",
+		"defaultValue": "-"
+	}
+}

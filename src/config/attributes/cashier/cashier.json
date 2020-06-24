@@ -1,0 +1,68 @@
+{
+	"n22-cashier/v-model": {
+		"description": "收银台是否显示",
+		"descriptionEn": "is show",
+		"optionType": "boolearn",
+		"defaultValue": "false"
+	},
+	"n22-cashier/channels": {
+		"description": "支付渠道数据源",
+		"descriptionEn": "cashier channels",
+		"optionType": "array",
+		"defaultValue": "-"
+	},
+	"n22-cashier/channel-limit": {
+		"description": "支付渠道超出限制数目时展示更多支付渠道按钮",
+		"descriptionEn": "cashier sharp",
+		"optionType": "number",
+		"defaultValue": "2"
+	},
+	"n22-cashier/default-index": {
+		"description": "默认选中支付渠道索引",
+		"descriptionEn": "default index",
+		"optionType": "number",
+		"defaultValue": "0"
+	},
+	"n22-cashier/title": {
+		"description": "收银台弹窗标题",
+		"descriptionEn": "title",
+		"optionType": "string",
+		"defaultValue": "支付"
+	},
+	"n22-cashier/payment-title": {
+		"description": "支付金额标题",
+		"descriptionEn": "payment title",
+		"optionType": "string",
+		"defaultValue": "支付金额(元)"
+	},
+	"n22-cashier/payment-amount": {
+		"description": "支付金额",
+		"descriptionEn": "payment amount",
+		"optionType": "string",
+		"defaultValue": "0.00"
+	},
+	"n22-cashier/payment-describe": {
+		"description": "支付金额说明",
+		"descriptionEn": "payment describe",
+		"optionType": "string",
+		"defaultValue": "-"
+	},
+	"n22-cashier/pay-button-text": {
+		"description": "确认支付按钮文案",
+		"descriptionEn": "pay button text",
+		"optionType": "string",
+		"defaultValue": "确认支付"
+	},
+	"n22-cashier/pay-button-disabled": {
+		"description": "禁用支付按钮",
+		"descriptionEn": "pay button disabled",
+		"optionType": "boolearn",
+		"defaultValue": "false"
+	},
+	"n22-cashier/more-button-text": {
+		"description": "更多支付渠道按钮文案",
+		"descriptionEn": "more button text",
+		"optionType": "string",
+		"defaultValue": "更多支付方式"
+	}
+}

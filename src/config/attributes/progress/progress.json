@@ -1,0 +1,64 @@
+{
+	"n22-progress/value": {
+		"description": "进度值",
+		"descriptionEn": "progress value",
+		"optionType": "number",
+		"defaultValue": "0"
+	},
+	"n22-progress/size": {
+    	"options": ["default", "activity", "warning"],
+		"description": "圆环大小",
+		"descriptionEn": "circle size",
+		"optionType": "number",
+		"defaultValue": "70"
+	},
+	"n22-progress/width": {
+		"description": "圆环宽度",
+		"descriptionEn": "circle stroke width",
+		"optionType": "number",
+		"defaultValue": "-"
+	},
+	"n22-progress/color": {
+		"description": "圆环高亮颜色",
+		"descriptionEn": "circle stroke highlight color",
+		"optionType": "string",
+		"defaultValue": "-"
+	},
+	"n22-progress/border-color": {
+		"description": "圆环颜色",
+		"descriptionEn": "circle stroke color",
+		"optionType": "string",
+		"defaultValue": "-"
+	},
+	"n22-progress/fill": {
+		"description": "圆环内部填充",
+		"descriptionEn": "circle fill color",
+		"optionType": "string",
+		"defaultValue": "-"
+	},
+	"n22-progress/linecap": {
+    	"options": ["round", "butt"],
+		"description": "圆环两端形状",
+		"descriptionEn": "shape of end",
+		"optionType": "string",
+		"defaultValue": "-"
+	},
+	"n22-progress/rotate": {
+		"description": "圆环旋转",
+		"descriptionEn": "circle rotate",
+		"optionType": "number",
+		"defaultValue": "0"
+	},
+	"n22-progress/transition": {
+		"description": "进度变化是否使用动效",
+		"descriptionEn": "use transition when value changes",
+		"optionType": "number",
+		"defaultValue": "false"
+	},
+	"n22-progress/duration": {
+		"description": "进度变化动效时长",
+		"descriptionEn": "transition duration",
+		"optionType": "number",
+		"defaultValue": "0"
+	}
+}

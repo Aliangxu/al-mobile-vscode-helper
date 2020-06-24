@@ -1,0 +1,49 @@
+{
+	"n22-tag/size": {
+		"options": ["tiny", "small", "large"],
+		"description": "标签大小",
+		"descriptionEn": "tag size",
+		"optionType": "string",
+		"defaultValue": "large"
+	},
+	"n22-tag/shape": {
+		"options": ["square", "circle", "fillet", "quarter", "coupon"],
+		"description": "标签形状",
+		"descriptionEn": "tag shape",
+		"optionType": "string",
+		"defaultValue": "square"
+	},
+	"n22-tag/sharp": {
+		"options": ["top-left", "top-right", "bottom-left", "bottom-right"],
+		"description": "标签尖角",
+		"descriptionEn": "tag sharp",
+		"optionType": "string",
+		"defaultValue": "-"
+	},
+	"n22-tag/type": {
+		"options": ["fill", "ghost"],
+		"description": "标签样式",
+		"descriptionEn": "tag type",
+		"optionType": "string",
+		"defaultValue": "ghost"
+	},
+	"n22-tag/fill-color": {
+		"description": "标签颜色",
+		"descriptionEn": "tag fill color",
+		"optionType": "string",
+		"defaultValue": "rgba(0,0,0,0)"
+	},
+	"n22-tag/font-weight": {
+		"options": ["normal", "bold", "bolder"],
+		"description": "字体粗细",
+		"descriptionEn": "tag font weight",
+		"optionType": "string",
+		"defaultValue": "normal"
+	},
+	"n22-tag/font-color": {
+		"description": "字体颜色",
+		"descriptionEn": "tag font color",
+		"optionType": "string",
+		"defaultValue": "#fc9153"
+	}
+}

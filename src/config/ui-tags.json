@@ -5,9 +5,172 @@
     "description": "顶部导航",
     "descriptionEn": "head"
   },
+  "al-content": {
+    "defaults": ["title"],
+    "attributes": ["v-model", "isTop", "isMescrollLoadList", "isMescrollDown", "listAnm", "swiperTop", "swiperBottom", "page", "tabs", "upCallbackFun", "upRefreshFun", "backgroundColor", "emptyProp", "needSwiper"],
+    "description": "滚动内容区",
+    "descriptionEn": "scroll content"
+  },
+  "al-content-list": {
+    "defaults": ["tabs"],
+    "attributes": ["v-model", "isTop", "isMescrollLoadList", "isMescrollDown", "listAnm", "swiperTop", "swiperBottom", "page", "tabs", "upCallbackFun", "upRefreshFun", "backgroundColor", "emptyProp", "needSwiper"],
+    "description": "滚动内容区带swiper",
+    "descriptionEn": "scroll content"
+  },
+  "n22-action-bar": {
+    "defaults": ["actions"],
+    "attributes": ["actions"],
+    "description": "汇集若干文案或操作按钮的吸底边栏，可用于展示表单信息与提交按钮",
+    "descriptionEn": "button array"
+  },
+  "n22-activity-indicator": {
+    "attributes": ["type", "size", "width", "color", "text-color", "text-size", "vertical"],
+    "description": "活动指示器，一般用于正在进行中的任务示意",
+    "descriptionEn": "activity indicator"
+  },
   "n22-button": {
     "defaults": ["type"],
     "attributes": ["disabled", "ghost", "htmlType", "icon", "loading", "shape", "size", "type", "block"],
-    "description": "to trigger an operation"
+    "description": "按钮组件，可配置多种不同的按钮样式",
+    "descriptionEn": "to trigger an operation"
+  },
+  "n22-cell-item": {
+    "defaults": ["title"],
+    "attributes": ["title", "brief", "addon", "disabled", "arrow", "no-border"],
+    "description": "列表用于展现并列层级的信息内容，列表可承载功能入口、功能操作、信息展示等功能",
+    "descriptionEn": "cell item"
+  },
+  "n22-detail-item": {
+    "defaults": ["title"],
+    "attributes": ["title", "content", "bold"],
+    "description": "清单列表用于展示一些列表信息，如账单",
+    "descriptionEn": "detail item"
+  },
+  "n22-drop-menu": {
+    "defaults": ["data"],
+    "attributes": ["data", "default-value", "option-render"],
+    "description": "下拉菜单可用于列表筛选",
+    "descriptionEn": "drop menu"
+  },
+  "n22-icon": {
+    "defaults": ["name"],
+    "attributes": ["name", "size", "color", "svg"],
+    "description": "图标",
+    "descriptionEn": "IconFont、SVG"
+  },
+  "n22-image-reader": {
+    "defaults": ["name"],
+    "attributes": ["name", "size", "mime", "is-camera-only", "is-multiple", "amount"],
+    "description": "用于相册照片读取或拉起拍照",
+    "descriptionEn": "image reader"
+  },
+  "n22-image-viewer": {
+    "defaults": ["v-model"],
+    "attributes": ["v-model", "list", "initial-index", "has-dots"],
+    "description": "用于浏览多张图片，并可对图片进行滑动切换",
+    "descriptionEn": "image viewer"
+  },
+  "n22-notice-bar": {
+    "attributes": ["mode", "type", "time", "round", "multi-rows", "scrollable", "icon", "icon-svg"],
+    "description": "通常用于系统提醒、活动提醒等通知",
+    "descriptionEn": "notice bar"
+  },
+  "n22-information-bar": {
+    "defaults": ["informationList"],
+    "attributes": ["leftIcon", "leftImg", "direction", "informationList", "url"],
+    "description": "全局咨询导航",
+    "descriptionEn": "information bar"
+  },
+  "n22-progress": {
+    "defaults": ["value"],
+    "attributes": ["value", "size", "width", "color", "border-color", "fill", "linecap", "rotate", "transition", "duration"],
+    "description": "进度圆环",
+    "descriptionEn": "progress"
+  },
+  "n22-wave-circle": {
+    "defaults": ["v-modal", "totalNum"],
+    "attributes": ["v-modal", "widthC", "sizeC", "boundary", "circle-title", "isLoadCircle", "boundaryUpColor", "boundaryDownColor"],
+    "description": "波浪进度组件-分数",
+    "descriptionEn": "wave circle"
+  },
+  "ContentLoader ": {
+    "attributes": ["width", "height", "speed", "preserveAspectRatio", "primaryColor", "secondaryColor", "uniqueKey", "animate", "baseUrl", "primaryOpacity", "secondaryOpacity"],
+    "description": "骨架屏",
+    "descriptionEn": "vue-content-loader"
+  },
+  "n22-steps": {
+    "defaults": ["steps"],
+    "attributes": ["steps", "current", "direction", "transition", "vertical-adaptive"],
+    "description": "用于引导用户按照流程完成任务的导航条，显示当前所在步骤",
+    "descriptionEn": "steps"
+  },
+  "n22-swiper": {
+    "attributes": ["autoplay", "transition", "transition-duration", "default-index", "has-dots", "is-prevent", "is-loop", "dragable", "use-native-driver"],
+    "description": "走马灯，用于一组图片或卡片轮播",
+    "descriptionEn": "swiper"
+  },
+  "n22-tab-bar": {
+    "defaults": ["v-model"],
+    "attributes": ["v-model", "items", "valueKey", "textKey", "has-ink", "ink-length", "immediate"],
+    "description": "用于创建不含内容区域的标签栏",
+    "descriptionEn": "tab bar"
+  },
+  "n22-tab-pane": {
+    "defaults": ["v-model"],
+    "attributes": ["v-model", "immediate"],
+    "description": "用于创建包含内容区域的标签页",
+    "descriptionEn": "tab pane"
+  },
+  "n22-tag": {
+    "attributes": ["size", "shape", "sharp", "type", "fill-color", "font-weight", "font-color"],
+    "description": "用于表示区域的状态的标签",
+    "descriptionEn": "tag"
+  },
+  "n22-amount": {
+    "defaults": ["value"],
+    "attributes": ["value", "precision", "is-round-up", "has-separator", "separator", "is-capital", "transition", "duration", "init-num", "zero-text", "amountNumSty", "zeroIsInit"],
+    "description": "金融数字，一般用于金额，数量等",
+    "descriptionEn": "amount"
+  },
+  "n22-work": {
+    "defaults": ["value"],
+    "attributes": ["value", "precision", "is-round-up", "has-separator", "separator", "is-capital", "transition", "duration", "init-num", "zero-text", "amountNumSty", "zeroIsInit"],
+    "description": "暂定--未写",
+    "descriptionEn": "work"
+  },
+  "n22-bill": {
+    "defaults": ["name"],
+    "attributes": ["name", "no", "water-mark"],
+    "description": "电子账单或票据",
+    "descriptionEn": "bill"
+  },
+  "n22-captcha": {
+    "defaults": ["v-model"],
+    "attributes": ["v-model", "no", "is-view", "maxlength", "mask", "system", "auto-countdown", "title", "brief", "append-to", "count", "count-normal-text", "count-active-text"],
+    "description": "验证码校验窗口",
+    "descriptionEn": "captcha"
+  },
+  "n22-cashier": {
+    "defaults": ["v-model"],
+    "attributes": ["v-model", "channels", "channel-limit", "default-index", "title", "payment-title", "payment-amount", "payment-describe", "pay-button-text", "pay-button-disabled", "more-button-text"],
+    "description": "业务支付弹窗，支持支付渠道选择和支付验证码发送",
+    "descriptionEn": "cashier"
+  },
+  "n22-ruler": {
+    "defaults": ["v-model"],
+    "attributes": ["v-model", "scope", "step", "unit", "min", "max", "stepTextPosition", "stepTextRender"],
+    "description": "可滑动刻度尺",
+    "descriptionEn": "ruler"
+  },
+  "n22-action-sheet": {
+    "defaults": ["v-model"],
+    "attributes": ["v-model", "title", "options", "default-index", "invalid-index", "cancel-text"],
+    "description": "用于提供场景相关的多个操作动作",
+    "descriptionEn": "action-sheet"
+  },
+  "n22-date-picker": {
+    "attributes": ["type", "scope", "step", "unit", "min", "max", "stepTextPosition", "stepTextRender"],
+    "description": "选择日期或者时间，支持年/月/日/时/分和按照范围选择",
+    "descriptionEn": "date picker"
   }
 }

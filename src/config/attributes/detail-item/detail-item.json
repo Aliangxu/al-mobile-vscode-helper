@@ -1,0 +1,20 @@
+{
+	"n22-detail-item/title": {
+		"description": "标题",
+		"descriptionEn": "title",
+		"optionType": "string",
+		"defaultValue": "-"
+	},
+	"n22-detail-item/content": {
+		"description": "描述内容",
+		"descriptionEn": "content text",
+		"optionType": "string",
+		"defaultValue": "-"
+	},
+	"n22-detail-item/bold": {
+		"description": "是否加粗显示",
+		"descriptionEn": "whether emphasis content",
+		"optionType": "string",
+		"defaultValue": "-"
+	}
+}

@@ -1,0 +1,33 @@
+{
+	"n22-steps/steps": {
+		"description": "步骤信息数组",
+		"descriptionEn": "array of step information",
+		"optionType": "array",
+		"defaultValue": "-"
+	},
+	"n22-steps/current": {
+		"description": "当前步骤/进度",
+		"descriptionEn": "current step",
+		"optionType": "number",
+		"defaultValue": "0"
+	},
+	"n22-steps/direction": {
+    	"options": ["horizontal", "vertical"],
+		"description": "展示方向",
+		"descriptionEn": "to specify the direction of the step bar",
+		"optionType": "number",
+		"defaultValue": "-"
+	},
+	"n22-steps/transition": {
+		"description": "进度变化动效",
+		"descriptionEn": "progress change transition",
+		"optionType": "boolearn",
+		"defaultValue": "false"
+	},
+	"n22-steps/vertical-adaptive": {
+		"description": "步骤高度自适应",
+		"descriptionEn": "step height adaptive",
+		"optionType": "boolearn",
+		"defaultValue": "false"
+	}
+}

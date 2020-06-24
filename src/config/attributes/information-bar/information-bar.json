@@ -1,0 +1,33 @@
+{
+	"n22-information-bar/leftIcon": {
+		"description": "svg图标",
+		"descriptionEn": "svg name",
+		"optionType": "string",
+		"defaultValue": "default"
+	},
+	"n22-information-bar/leftImg": {
+		"description": "图标",
+		"descriptionEn": "image",
+		"optionType": "string",
+		"defaultValue": "default"
+	},
+	"n22-information-bar/direction": {
+    	"options": ["vertical", "horizontal"],
+		"description": "咨询滚动方向",
+		"descriptionEn": "direction",
+		"optionType": "string",
+		"defaultValue": "vertical"
+	},
+	"n22-information-bar/informationList": {
+		"description": "咨询数据",
+		"descriptionEn": "data",
+		"optionType": "object",
+		"defaultValue": "-"
+	},
+	"n22-information-bar/url": {
+		"description": "跳转链接",
+		"descriptionEn": "url link",
+		"optionType": "string",
+		"defaultValue": "-"
+	}
+}

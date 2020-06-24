@@ -1,0 +1,74 @@
+{
+	"n22-amount/value": {
+		"description": "数值",
+		"descriptionEn": "amount value",
+		"optionType": "number",
+		"defaultValue": "0"
+	},
+	"n22-amount/precision": {
+		"description": "数字精度",
+		"descriptionEn": "amount precision",
+		"optionType": "number",
+		"defaultValue": "2"
+	},
+	"n22-amount/is-round-up": {
+		"description": "数字精度取舍是否四舍五入",
+		"descriptionEn": "number round off",
+		"optionType": "boolearn",
+		"defaultValue": "true"
+	},
+	"n22-amount/has-separator": {
+		"description": "数字是否有千位分隔符",
+		"descriptionEn": "insert thousand separators",
+		"optionType": "boolearn",
+		"defaultValue": "false"
+	},
+	"n22-amount/separator": {
+		"description": "数字千位分隔符",
+		"descriptionEn": "thousand separator",
+		"optionType": "string",
+		"defaultValue": ","
+	},
+	"n22-amount/is-capital": {
+		"description": "数字是否转换为大写中文",
+		"descriptionEn": "convert to chinese capital",
+		"optionType": "boolearn",
+		"defaultValue": "false"
+	},
+	"n22-amount/transition": {
+		"description": "数字变化是否使用动画",
+		"descriptionEn": "use transition when value changes",
+		"optionType": "boolearn",
+		"defaultValue": "false"
+	},
+	"n22-amount/duration": {
+		"description": "数字变化动画时长",
+		"descriptionEn": "transition duration",
+		"optionType": "number",
+		"defaultValue": "1000"
+	},
+	"n22-amount/init-num": {
+		"description": "数值-初始化数值",
+		"descriptionEn": "init value of value changes",
+		"optionType": "number",
+		"defaultValue": "100000"
+	},
+	"n22-amount/zero-text": {
+		"description": "字符串-为零时需要显示的文字",
+		"descriptionEn": "show text when value is zero",
+		"optionType": "string",
+		"defaultValue": "-"
+	},
+	"n22-amount/amountNumSty": {
+		"description": "是否加载n22-amount-num样式",
+		"descriptionEn": "show text when value is zero",
+		"optionType": "boolearn",
+		"defaultValue": "false"
+	},
+	"n22-amount/zeroIsInit": {
+		"description": "为零时是否初始化",
+		"descriptionEn": "is init when value is zero",
+		"optionType": "boolearn",
+		"defaultValue": "false"
+	}
+}

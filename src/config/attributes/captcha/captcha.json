@@ -1,0 +1,74 @@
+{
+	"n22-captcha/v-model": {
+		"description": "验证码窗口是否显示",
+		"descriptionEn": "whether to show captcha or not",
+		"optionType": "boolearn",
+		"defaultValue": "false"
+	},
+	"n22-captcha/is-view": {
+		"description": "是否内嵌在页面内展示，否则以弹层形式",
+		"descriptionEn": "whether to show as inline element or append to the body",
+		"optionType": "boolearn",
+		"defaultValue": "false"
+	},
+	"n22-captcha/maxlength": {
+		"description": "字符最大输入长度, 若为-1则不限制输入长度",
+		"descriptionEn": "maxlength of string, set to -1 as no restriction",
+		"optionType": "number",
+		"defaultValue": "4"
+	},
+	"n22-captcha/mask": {
+		"description": "是否掩码",
+		"descriptionEn": "whether to mask code or not",
+		"optionType": "boolearn",
+		"defaultValue": "false"
+	},
+	"n22-captcha/system": {
+		"description": "是否使用系统默认键盘",
+		"descriptionEn": "Use system keyboard or simulated keyboard",
+		"optionType": "boolearn",
+		"defaultValue": "false"
+	},
+	"n22-captcha/auto-countdown": {
+		"description": "是否自动开始倒计时，否则需手动调用countdown",
+		"descriptionEn": "auto-countdown",
+		"optionType": "boolearn",
+		"defaultValue": "true"
+	},
+	"n22-captcha/title": {
+		"description": "标题",
+		"descriptionEn": "title",
+		"optionType": "string",
+		"defaultValue": "-"
+	},
+	"n22-captcha/brief": {
+		"description": "描述",
+		"descriptionEn": "brief",
+		"optionType": "string",
+		"defaultValue": "-"
+	},
+	"n22-captcha/append-to": {
+		"description": "挂载节点",
+		"descriptionEn": "portal node of dialog",
+		"optionType": "string",
+		"defaultValue": "document.body"
+	},
+	"n22-captcha/count": {
+		"description": "倒计时时长, 设置为0的时候不显示倒计时按钮",
+		"descriptionEn": "title",
+		"optionType": "number",
+		"defaultValue": "60"
+	},
+	"n22-captcha/count-normal-text": {
+		"description": "发送验证码正常状态文字",
+		"descriptionEn": "count-normal-text",
+		"optionType": "string",
+		"defaultValue": "发送验证码"
+	},
+	"n22-captcha/count-active-text": {
+		"description": "发送验证码及倒计时按钮文案配置项",
+		"descriptionEn": "count-active-text",
+		"optionType": "string",
+		"defaultValue": "{$1}秒后重发"
+	}
+}

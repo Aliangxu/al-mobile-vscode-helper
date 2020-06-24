@@ -1,0 +1,39 @@
+{
+	"n22-action-sheet/v-model": {
+		"description": "面板是否可见",
+		"descriptionEn": "action-sheet is show",
+		"optionType": "boolearn",
+		"defaultValue": "false"
+	},
+	"n22-action-sheet/title": {
+		"description": "面板标题",
+		"descriptionEn": "title",
+		"optionType": "string",
+		"defaultValue": "square"
+	},
+	"n22-action-sheet/面板标题": {
+		"description": "面板选项",
+		"descriptionEn": "action-sheet 面板标题",
+		"optionType": "array",
+		"defaultValue": "-"
+	},
+	"n22-action-sheet/default-index": {
+		"options": ["fill", "ghost"],
+		"description": "默认选中项",
+		"descriptionEn": "default select index",
+		"optionType": "number",
+		"defaultValue": "0"
+	},
+	"n22-action-sheet/invalid-index": {
+		"description": "禁用选择项索引",
+		"descriptionEn": "invalid index",
+		"optionType": "number",
+		"defaultValue": "-1"
+	},
+	"n22-action-sheet/cancel-text": {
+		"description": "取消按钮文案",
+		"descriptionEn": "cancel text",
+		"optionType": "string",
+		"defaultValue": "-"
+	}
+}

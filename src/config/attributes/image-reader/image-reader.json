@@ -1,0 +1,39 @@
+{
+	"n22-image-reader/name": {
+		"description": "标识:可用于区分多个选择器",
+		"descriptionEn": "identifier",
+		"optionType": "string",
+		"defaultValue": "default"
+	},
+	"n22-image-reader/size": {
+    	"options": ["small", "large"],
+		"description": "图片尺寸限制",
+		"descriptionEn": "image size limit unit kb",
+		"optionType": "string number",
+		"defaultValue": "default"
+	},
+	"n22-image-reader/mime": {
+		"description": "支持图片类型",
+		"descriptionEn": "supported image types",
+		"optionType": "array",
+		"defaultValue": "false"
+	},
+	"n22-image-reader/is-camera-only": {
+		"description": "是否只支持拍照",
+		"descriptionEn": "only support photographing",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"n22-image-reader/is-multiple": {
+		"description": "是否支持选择多张",
+		"descriptionEn": "support selection of multiple sheets",
+		"optionType": "boolean",
+		"defaultValue": "false"
+	},
+	"n22-image-reader/amount": {
+		"description": "选择多张",
+		"descriptionEn": "number of sheets",
+		"optionType": "number",
+		"defaultValue": "-"
+	}
+}

@@ -1,0 +1,20 @@
+{
+	"n22-drop-menu/data": {
+		"description": "数据源",
+		"descriptionEn": "data source",
+		"optionType": "array",
+		"defaultValue": "-"
+	},
+	"n22-drop-menu/default-value": {
+		"description": "初始值",
+		"descriptionEn": "initial value",
+		"optionType": "array",
+		"defaultValue": "-"
+	},
+	"n22-drop-menu/option-render": {
+		"description": "返回各选项渲染内容",
+		"descriptionEn": "return rendering contents of each option",
+		"optionType": "function",
+		"defaultValue": "-"
+	}
+}

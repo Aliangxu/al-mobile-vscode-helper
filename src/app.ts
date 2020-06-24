@@ -281,7 +281,7 @@ export class AlmobileCompletionItemProvider implements CompletionItemProvider {
       insertText: new SnippetString(prettyHTML('<' + snippets.join(''), {indent_size: this.size}).substr(1)),
       kind: CompletionItemKind.Snippet,
       detail: 'al-mobile Vue',
-      documentation: tagVal.description
+      documentation: `${tagVal.description} ${tagVal.descriptionEn}`
     };
   }
 

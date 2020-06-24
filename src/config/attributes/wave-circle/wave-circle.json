@@ -1,0 +1,44 @@
+{
+	"n22-wave-circle/v-modal": {
+		"description": "进度值",
+		"descriptionEn": "wave-circle value",
+		"optionType": "number",
+		"defaultValue": "0"
+	},
+	"n22-wave-circle/sizeC": {
+		"descriptionEn": "圆环大小",
+		"description": "circle size",
+		"optionType": "number",
+		"defaultValue": "70"
+	},
+	"n22-wave-circle/widthC": {
+		"description": "圆环宽度",
+		"descriptionEn": "circle stroke width",
+		"optionType": "number",
+		"defaultValue": "-"
+	},
+	"n22-wave-circle/circle-title": {
+		"description": "圆环内部文本显示内容",
+		"descriptionEn": "circle fill title",
+		"optionType": "string",
+		"defaultValue": "-"
+	},
+	"n22-wave-circle/isLoadCircle": {
+		"description": "显示模式-如果为true则显示`process`组件",
+		"descriptionEn": "circle of type",
+		"optionType": "boolearn",
+		"defaultValue": "false"
+	},
+	"n22-wave-circle/boundaryUpColor": {
+		"description": "圆环高于分界线颜色",
+		"descriptionEn": "circle boundaryUp color",
+		"optionType": "string",
+		"defaultValue": "-"
+	},
+	"n22-wave-circle/boundaryDownColor": {
+		"description": "圆环低于分界线颜色",
+		"descriptionEn": "circle boundaryDown color",
+		"optionType": "string",
+		"defaultValue": "-"
+	}
+}

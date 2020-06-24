@@ -1,4 +1,34 @@
 # al-mobile-vscode-helper 插件开发说明
+
+## Feature
+
+* Document
+
+* Autocomplete
+
+	support vue, html language
+
+* Snippets
+
+
+## Document
+
+### Usage
+
+1 - Move cursor to al-mobile tag or select it
+
+2 - Press default hot key `shift + cmd + a`(windows: `shift + win + a`) or 
+    Press ⇧⌘p to bring up the Command Palette and then input `al-mobile-helper.search`
+
+3 - Show document view If complete matching,
+    or you should select tag you want to search
+
+4 - Enter and trigger document browser
+
+5 - Press default hot key `shift + cmd + k`(windows: `shift + win + k`) to run
+
+![document](https://vue-mobile.gitee.io/static/image/al-mobile-vscode-helper.gif)
+
 =====================================
 
 package.json

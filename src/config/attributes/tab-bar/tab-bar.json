@@ -1,0 +1,44 @@
+{
+	"n22-tab-bar/v-model": {
+		"description": "双向绑定的标签对象",
+		"descriptionEn": "key of selected menu",
+		"optionType": "string",
+		"defaultValue": "-"
+	},
+	"n22-tab-bar/items": {
+		"description": "标签标题数组",
+		"descriptionEn": "menus data",
+		"optionType": "array",
+		"defaultValue": "-"
+	},
+	"n22-tab-bar/valueKey": {
+		"description": "标签标题数组items中对应的key--可自定义",
+		"descriptionEn": "value key",
+		"optionType": "string",
+		"defaultValue": "name"
+	},
+	"n22-tab-bar/textKey": {
+		"description": "标签标题数组items中对应的text--可自定义",
+		"descriptionEn": "text key",
+		"optionType": "string",
+		"defaultValue": "label"
+	},
+	"n22-tab-bar/has-ink": {
+		"description": "是否显示下划线",
+		"descriptionEn": "display underline ink bar",
+		"optionType": "boolearn",
+		"defaultValue": "true"
+	},
+	"n22-tab-bar/ink-length": {
+		"description": "下划线宽度",
+		"descriptionEn": "the width of ink bar",
+		"optionType": "number",
+		"defaultValue": "100"
+	},
+	"n22-tab-bar/immediate": {
+		"description": "初始化后立即就触发一次change事件",
+		"descriptionEn": "trigger a change event immediately after initialization",
+		"optionType": "boolearn",
+		"defaultValue": "false"
+	}
+}
