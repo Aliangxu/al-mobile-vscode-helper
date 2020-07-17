@@ -2,7 +2,7 @@
 	"name": "al-mobile-vscode-helper",
 	"displayName": "al-mobile-vscode-helper",
 	"description": "al-mobile vscode开发帮助插件",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"publisher": "al-mobile",
 	"repository": {
 		"type": "git",
