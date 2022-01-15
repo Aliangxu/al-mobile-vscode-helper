@@ -145,6 +145,6 @@
 	},
 	"dependencies": {
 		"pretty": "^2.0.0",
-		"shelljs": "^0.8.4"
+		"shelljs": "^0.8.5"
 	}
 }
